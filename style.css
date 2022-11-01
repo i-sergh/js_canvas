@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.for-canvas{
+    width: 100vw;
+    height: 100vh;
+}
+.controls {
+    width: 100vw;
+    height: 10vh;
+}
+#cnv {
+    /*width: 100px;
+    height: 100px;*/
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+
+
+#warpButton{
+    width: 100%;
+    height: 100%;
+    /*background-color: tomato;
+    */
+}
