@@ -113,7 +113,7 @@ function handleParticles(){
                 
                 ctx.beginPath();
                 ctx.strokeStyle = 'hsl(' + particlesArray[i].hue + ',100%, 80%)';
-                ctx.lineWidth = particlesArray[i].size/10;
+                ctx.lineWidth = particlesArray[i].size/100;
                 ctx.moveTo(particlesArray[i].x, particlesArray[i].y);
                 ctx.lineTo(particlesArray[j].x, particlesArray[j].y);
                 ctx.stroke()
