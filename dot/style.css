@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.for-canvas{
+    width: 100vw;
+    height: 100vh;
+}
+
+#cnv {
+    /*width: 100px;
+    height: 100px;*/
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+
